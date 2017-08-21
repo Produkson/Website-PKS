@@ -34,8 +34,17 @@
 .section-services{
 	padding-top: 20px;
 }
-.section-services .image-container{
+
+.text_align-right{
+	text-align: right;
+}
+
+.section-services .image-container-left{
 	margin-left: -150px;
+}
+
+.section-services .image-container-right{
+	margin-right: -150px;
 }
 
 h5.description{
@@ -46,3 +55,12 @@ h5.description{
 h5.description .font-weight-bold{
 	font-weight: 600;
 }
+
+.separator-large {
+	height: 2px;
+	width: 155px;
+	background-color: #B8B8B8;
+	margin: 40px auto;
+}
+.separator-large.separator-primary {
+	background-color: #193d78; }
